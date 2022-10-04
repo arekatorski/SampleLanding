@@ -1,0 +1,32 @@
+@import "clear.scss";
+@import "variables.scss";
+
+body{
+    overflow-x: hidden;
+    .baner{
+        background-color: $primary-color;
+        padding: 140px;
+    }   
+    .baner-text{
+        padding-top: 100px;
+    }
+    .nav-item{
+        padding: 10px;
+    }
+    .container{
+        padding: 70px;
+    }
+    .text{
+        padding-top: 50px;
+    }
+    .subhero{
+        padding: 100px;
+        background-color: $primary-color;
+    }
+    .offer{
+        padding: 90px;
+    }
+    .button{
+        background-color: $primary-color;
+    }
+}
